@@ -14,7 +14,7 @@
         <p>
             Se't proporciona un objecte amb la informació d'un estudiant. Desestructura l'objecte per obtenir el nom, edat i notes de l'estudiant. A continuació, imprimeix aquestes dades utilitzant una plantilla literal.
         </p>
-        <button class="btn" onclick="exercici1_1()">Resultat</button>
+        <button class="btn" onclick="exercici1()">Resultat</button>
         <div id="res1"></div>
     </div>
 
@@ -23,9 +23,53 @@
         <p>
             Se't proporciona un array amb els valors de diverses coordenades. Utilitza la desestructuració d'arrays per extreure les coordenades x, y, i z.
         </p>
-        <button class="btn" onclick="exercici1_2()">Resultat</button>
+        <button class="btn" onclick="exercici2()">Resultat</button>
         <div id="res2"></div>
     </div>
+
+    <!-- Part 2 -->
+     <h1>Part 2: Manipulació d'arrays amb métodes avançats</h1>
+     <div class="exercici">
+        <h2>Exercici 3</h2>
+        <p>
+            Tens un array amb els preus d'una llista de productes. Escriu una funció que utilitzi el mètode map per incrementar cada preu en un 10%. Imprimeix el nou array amb els preus actualitzats.
+        </p>
+        <button class="btn" onclick="exercici3()">Resultat</button>
+        <div id="res3"></div>
+     </div>
+
+     <div class="exercici">
+        <h2>Exercici 4</h2>
+        <p>
+            Se't proporciona un array amb diferents edats. Utilitza el mètode filter per obtenir un nou array només amb les edats majors de 18 anys.
+        </p>
+        <button class="btn" onclick="exercici4()">Resultat</button>
+        <div id="res4"></div>
+     </div>
+
+     <div class="exercici">
+        <h2>Exercici 5</h2>
+        <p>
+            Tens un array amb les notes dels exàmens d'un estudiant. Utilitza el mètode reduce per calcular la mitjana de les notes.
+        </p>
+        <button class="btn" onclick="exercici5()">Resultat</button>
+        <div id="res5"></div>
+     </div>
+
+     <h1>PArt 3: Creació i manipulació d'objectes</h1>
+
+     <div class="exercici">
+        <h2>Exercici 6</h2>
+
+        <p>
+            Crea una funció que prengui com a paràmetres el nom d'un producte, el preu i la quantitat, i retorni un objecte amb aquesta informació. El preu ha de tenir un descompte del 5%. Imprimeix l'objecte resultant.
+        </p>
+        <input id="prod" type="text" placeholder="Producte">
+        <input id="preu" type="number" placeholder="Preu">
+        <input id="cant" type="number" placeholder="Cantitat">
+        <button class="btn" onclick="exercici6()">Resultat</button>
+        <div id="res6"></div>
+     </div>
 </body>
 <script src="script.js"></script>
 </html>
