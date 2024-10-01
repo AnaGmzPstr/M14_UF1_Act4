@@ -67,3 +67,17 @@ function exercici6(){
      resultat.innerHTML = `${Object.values(producteObjecte)}`
 }
 
+//Exercici 7
+function exercici7(){
+    let resultat = document.getElementById("res7");
+    const cotxe = {
+        marca: 'Tesla',
+        model: 'Model S',
+        preu: 80000
+    };
+    
+    cotxe['any'] = 2023;
+    console.log(cotxe);
+    resultat.innerHTML = `${Object.values(cotxe)}`
+}
+
